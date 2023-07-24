@@ -1,0 +1,20 @@
+
+
+.right{
+    width: 400px;
+    position: fixed;
+    /* border-left: 1px solid #ccc; */
+}
+
+.navbar .left, .navbar .right {
+    height: 56px ;
+}
+
+
+.body .left, .body .right {
+    height: calc(100vh - 56px);
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;;
+}
